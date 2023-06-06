@@ -20,10 +20,10 @@ function setup() {
   tower.velocityY = 1;
 doorsGroup=new Group ();
   climbersGroup=new Group();
-  invsibleBlockGroup=new Group();
+  invisibleBlockGroup=new Group();
 ghost=createSprite(200,200,50,50);
   ghost.scale=0.3;
-  ghost.addimage("ghost",ghostIng);
+  ghost.addImage("ghost",ghostImg);
 }
 
 
